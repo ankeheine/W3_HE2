@@ -1,0 +1,69 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.topNav {
+    overflow: hidden;
+    background-color: #4d5963;
+}
+
+.topNav a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topNavRight {
+    float: right;
+}
+
+.topNav a:hover {
+    background-color: rgb(124, 201, 224);
+    color: black;
+}
+
+.topNav a.active {
+    color: #e9bf5d;
+}
+
+header img  {
+    height: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+    border-radius: 12px;
+}
+
+.start:hover .overlay{
+    opacity: 1;
+}
+
+.theSimpsons{
+    color: goldenrod;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    color: rgb(81, 125, 125);
+    text-align: justify;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
