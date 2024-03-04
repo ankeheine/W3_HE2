@@ -57,9 +57,9 @@ p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 16px;
     color: rgb(81, 125, 125);
-    text-align: justify;
-    margin-left: 2em;
-    margin-right: 2em;
+    text-align: right;
+    margin-left: 5em;
+    margin-right: 5em;
 }
 
 h1 {
